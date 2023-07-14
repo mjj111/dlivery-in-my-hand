@@ -12,7 +12,7 @@ import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
 @Getter
-@SuperBuilder
+@SuperBuilder //생성자에서 상속받은 필드도 빌더에서 사용
 @NoArgsConstructor
 @AllArgsConstructor
 public class BaseEntity {

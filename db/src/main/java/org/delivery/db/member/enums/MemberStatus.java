@@ -5,8 +5,8 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public enum MemberStatus {
 
-    REGISTERED("등록"),
-    UNREGISTERED("탈퇴"),
+    REGISTERED("틍록회원"),
+    UNREGISTERED("탈퇴회원"),
     ;
 
     private final String description;
