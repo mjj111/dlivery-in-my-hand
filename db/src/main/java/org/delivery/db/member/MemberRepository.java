@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public interface MemberRepository extends JpaRepository<MemberEntity, Long> {
 
-    Optional<MemberEntity> findFirstByIdAndStatusOrderByIdDesc(Long userId,
+    Optional<MemberEntity> findFirstByIdAndStatusOrderByIdDesc(Long memberId,
                                                                MemberStatus status);
 
     Optional<MemberEntity> findFirstByEmailAndPasswordAndStatusOrderByIdDesc(String email,
