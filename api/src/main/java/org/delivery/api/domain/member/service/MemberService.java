@@ -36,11 +36,11 @@ public class MemberService {
             String email,
             String password
     ){
-        var entity = getUserWithThrow(email, password);
+        var entity = getMemberWithThrow(email, password);
         return entity;
     }
 
-    public MemberEntity getUserWithThrow(
+    public MemberEntity getMemberWithThrow(
             String email,
             String password
     ){
